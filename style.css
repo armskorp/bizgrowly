@@ -15,3 +15,11 @@ section{padding:88px 0}.alt{background:#fffdf7;border-top:1px solid #eee4cc;bord
 footer{padding:28px 0;font-size:14px;color:#6b7369;border-top:1px solid #e6dcc3}.fr{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}footer a{text-decoration:underline}
 @media(max-width:900px){.g3,.g4,.plans{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.g3,.g4,.plans,.two{grid-template-columns:1fr}section{padding:60px 0}.hero{padding:70px 0 60px}.burger{display:block}.nav nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;padding:16px 24px 24px;background:#faf6ec;border-bottom:1px solid #e6dcc3}.open .nav nav{display:flex}}
+.langbar{background:#0f3d2e;color:#f3ead2;font-size:13px}.langbar .wrap{display:flex;justify-content:flex-end;gap:4px;padding-top:6px;padding-bottom:6px;flex-wrap:wrap}.langbar button{background:none;border:1px solid transparent;color:#f3ead2;font:inherit;padding:4px 10px;cursor:pointer;border-radius:2px}.langbar button:hover{border-color:#b8913a55}.langbar button[aria-pressed=true]{border-color:#d9b65e;color:#d9b65e;font-weight:600}
+body{font-family:Inter,"Noto Sans Armenian",sans-serif}h1,h2,h3,.logo,.price,.num{font-family:"Cormorant Garamond","Noto Serif Armenian",serif}
+:lang(hy) h1{font-size:clamp(32px,5vw,58px);line-height:1.15}:lang(hy) h2{font-size:clamp(26px,3.4vw,38px)}
+@media(max-width:760px){.langbar .wrap{justify-content:center}.langbar button{padding:4px 8px}.nav nav{top:100%}}
+.logo,.nav nav a{white-space:nowrap}html:not([lang=en]) .nav nav{gap:16px;font-size:14px}
+@media(min-width:761px) and (max-width:1180px){html:not([lang=en]) .burger{display:block}html:not([lang=en]) .nav nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;padding:16px 24px 24px;background:#faf6ec;border-bottom:1px solid #e6dcc3}html:not([lang=en]).open .nav nav,html:not([lang=en]) .open .nav nav{display:flex}}
+.nav .wrap{gap:24px}
+@media(min-width:761px) and (max-width:1400px){html[lang=hy] .burger{display:block}html[lang=hy] .nav nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;padding:16px 24px 24px;background:#faf6ec;border-bottom:1px solid #e6dcc3}html[lang=hy] .open .nav nav{display:flex}}
