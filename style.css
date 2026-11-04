@@ -40,3 +40,17 @@ body{font-family:Inter,"Noto Sans Armenian",sans-serif}h1,h2,h3,.logo,.price,.nu
 .logo{display:flex;align-items:center;line-height:0}.logo img{height:56px;width:auto;max-width:none;object-fit:contain;display:block}@media(max-width:760px){.logo img{height:42px}}
 .plan .plan-note{font-size:13px;color:#7a6a45;font-style:italic;margin:-12px 0 22px}
 @media(min-width:901px){.plans{grid-template-columns:repeat(6,1fr);gap:20px}.plans .plan{grid-column:span 2;padding:28px}.plans .plan:nth-child(4){grid-column:2/4}.plans .plan:nth-child(5){grid-column:4/6}.plans .price{font-size:44px}}
+footer.site-foot{background:#0f3d2e;color:#e9e2cf;border-top:0;padding:56px 0 28px;font-size:14px}
+.sf-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px}
+.sf-brand p{margin:14px 0 0;color:#cfc6ad;max-width:300px;line-height:1.6}
+.sf-logo{display:inline-block;background:#faf7ee;border-radius:14px;padding:6px 14px;line-height:0}
+.sf-logo img{height:64px;width:auto;display:block}
+.sf-col h3{font-family:"Cormorant Garamond",serif;font-size:20px;color:#faf6ec;margin:0 0 12px;font-weight:600}
+.sf-col a{display:block;margin:0 0 8px}
+.site-foot a{color:#d4af37;text-decoration:none}
+.site-foot a:hover{text-decoration:underline}
+.sf-bottom{margin-top:40px;padding-top:20px;border-top:1px solid #2b5a48;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.sf-bottom p{margin:0;color:#cfc6ad}
+.sf-policies{display:flex;flex-wrap:wrap;gap:8px 20px}
+@media(max-width:900px){.sf-top{grid-template-columns:1fr 1fr}.sf-brand{grid-column:1/-1}}
+@media(max-width:560px){.sf-top{grid-template-columns:1fr}.sf-bottom{flex-direction:column}}
