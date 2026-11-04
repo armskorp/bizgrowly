@@ -55,3 +55,4 @@ footer.site-foot{background:#0f3d2e;color:#e9e2cf;border-top:0;padding:56px 0 28
 @media(max-width:900px){.sf-top{grid-template-columns:1fr 1fr}.sf-brand{grid-column:1/-1}}
 @media(max-width:560px){.sf-top{grid-template-columns:1fr}.sf-bottom{flex-direction:column}}
 section[id]{scroll-margin-top:80px}
+.view-hidden{display:none!important}.nav nav a.active{color:#b8913a}.nav nav a.btn.active{color:#faf6ec}.nav nav a.active:not(.btn){box-shadow:inset 0 -2px #b8913a}
