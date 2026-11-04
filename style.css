@@ -36,3 +36,5 @@ body{font-family:Inter,"Noto Sans Armenian",sans-serif}h1,h2,h3,.logo,.price,.nu
 .policy p,.policy li{line-height:1.7}
 .policy ul{padding-left:1.3em}
 .policy .updated{opacity:.75;font-size:14px}
+
+.logo{display:flex;align-items:center;line-height:0}.logo img{height:56px;width:auto;display:block}@media(max-width:760px){.logo img{height:42px}}
