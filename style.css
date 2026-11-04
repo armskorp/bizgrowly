@@ -38,3 +38,4 @@ body{font-family:Inter,"Noto Sans Armenian",sans-serif}h1,h2,h3,.logo,.price,.nu
 .policy .updated{opacity:.75;font-size:14px}
 
 .logo{display:flex;align-items:center;line-height:0}.logo img{height:56px;width:auto;max-width:none;object-fit:contain;display:block}@media(max-width:760px){.logo img{height:42px}}
+@media(min-width:901px){.plans{grid-template-columns:repeat(4,1fr);gap:18px}.plans .plan{padding:26px}.plans .price{font-size:44px}}
