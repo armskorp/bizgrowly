@@ -54,3 +54,4 @@ footer.site-foot{background:#0f3d2e;color:#e9e2cf;border-top:0;padding:56px 0 28
 .sf-policies{display:flex;flex-wrap:wrap;gap:8px 20px}
 @media(max-width:900px){.sf-top{grid-template-columns:1fr 1fr}.sf-brand{grid-column:1/-1}}
 @media(max-width:560px){.sf-top{grid-template-columns:1fr}.sf-bottom{flex-direction:column}}
+section[id]{scroll-margin-top:80px}
