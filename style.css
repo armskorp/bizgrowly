@@ -56,3 +56,7 @@ footer.site-foot{background:#0f3d2e;color:#e9e2cf;border-top:0;padding:56px 0 28
 @media(max-width:560px){.sf-top{grid-template-columns:1fr}.sf-bottom{flex-direction:column}}
 section[id]{scroll-margin-top:80px}
 .view-hidden{display:none!important}.nav nav a.active{color:#b8913a}.nav nav a.btn.active{color:#faf6ec}.nav nav a.active:not(.btn){box-shadow:inset 0 -2px #b8913a}
+.wa-fab{position:fixed;right:20px;bottom:20px;z-index:50;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(15,61,46,.28);transition:transform .15s ease,box-shadow .15s ease}
+.wa-fab:hover{transform:scale(1.06);box-shadow:0 8px 22px rgba(15,61,46,.36);text-decoration:none}
+.wa-fab svg{display:block}
+@media(max-width:760px){.wa-fab{right:16px;bottom:16px;width:52px;height:52px}}
