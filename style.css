@@ -60,3 +60,5 @@ section[id]{scroll-margin-top:80px}
 .wa-fab:hover{transform:scale(1.06);box-shadow:0 8px 22px rgba(15,61,46,.36);text-decoration:none}
 .wa-fab svg{display:block}
 @media(max-width:760px){.wa-fab{right:16px;bottom:16px;width:52px;height:52px}}
+
+.article .wrap,.blog-index .wrap{max-width:780px}.article h2{margin-top:1.4em}.article li{margin:.3em 0}.article .kicker a{color:#b8913a}.posts{display:grid;gap:22px;margin-top:28px}.post-card{padding:28px;background:#fffdf7;border:1px solid #e6dcc3;border-top:2px solid #b8913a}.post-card h2{font-size:clamp(24px,3vw,32px);margin:.2em 0 .4em}.post-card p{color:#46524b;margin:.3em 0}.post-card .more{color:#0f4d3a;font-weight:600}.article .cta-box{margin-top:40px;padding:26px 30px;border:1px solid #0f4d3a;background:#fffdf7}
